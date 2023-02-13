@@ -1,5 +1,6 @@
 import time
 import random
+
 def rpsfriend():
     player1choice = ""
     player2choice = ""
@@ -56,6 +57,7 @@ def rpsfriend():
         print("\n   Thanks for playing!")
         time.sleep(1)
         exit()
+
 def rpscomputer():
     aichoice = random.randint(1,3)
     print(aichoice)
@@ -105,17 +107,4 @@ def main():
     elif userin == "2":
         rpscomputer()
 
-
-
-
-
-
-
-
-
-
 main()
-
-
-
-
